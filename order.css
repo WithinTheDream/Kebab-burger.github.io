@@ -1,0 +1,194 @@
+html, body, ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0px;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: #eee;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #d8d790;
+	font: 12px arial, sans-serif;
+	color: #ffffff;
+	padding: 30px 5px;
+	text-align: center;
+}
+/************************** wrappers **********************************/
+#wrapper {
+	text-align: left;
+	width: 754px;
+	margin: auto;
+	background: url(images/body_bg.gif) repeat-y;
+}
+#body {
+	position: relative;
+}
+#body-top {
+	background: top left url(images/bar.gif) no-repeat;
+}
+#body-bot {
+	background: bottom left url(images/bar.gif) no-repeat;
+}
+/************************** Header **********************************/
+h1 {
+	padding: 17px 0px 0px 95px;
+}
+#person {
+	float: left;
+	padding: 1px 0px 0px 40px;
+    margin-top: -50px;
+	right: 0px;
+	display:inline;			
+}
+#about {
+
+	width: 256px;
+	height: 320px;
+	overflow: auto;
+	text-align: justify;
+	display:inline;
+}
+.first-letter {
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+}
+/************************** Navigation **********************************/
+#header ul {
+	margin: 0px 17px 20px 99px;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 5px;
+	text-align: center;
+	width:625px;
+}
+#header li {
+	display:inline;
+	padding: 13px;
+}
+#header ul a {
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #f3e9d9;
+	text-transform: uppercase;
+}
+#header ul a:hover{
+	color: #fff;
+}
+/************************** Tray **********************************/
+#tray {
+	padding-left: 130px;
+	padding-right: 45px;
+}
+#tray-left {
+	float: left;
+	width: 255px;
+}
+#tray-right {
+	float: right;
+	width: 302px;
+}
+#tray-left .left {
+	margin-right: 12px;
+}
+#tray h2 {
+	margin-bottom: 16px;
+}
+#tray p {
+	margin: 0px;
+	margin-bottom: 3px;
+}
+#tray-left .more {
+	padding-right: 12px;
+}
+/************************** Footer **********************************/
+#footer {
+	text-align: center;
+	color: white;
+	margin-left: 95px;
+	margin-right: 14px;
+	background: top left url(images/body_bot_left.gif) no-repeat;
+}
+#footer-right {
+	padding-top: 33px;
+	padding-bottom: 22px;
+	background: top right url(images/body_bot_right.gif) no-repeat;
+}
+
+#order-section {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+  }
+  .order-item {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+
+  }
+  .order-button {
+    display: inline;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+	
+  }
+  .order-button:hover {
+    background-color: #218838;
+	display:inline;
+  }
+
+
+  #about-section, #contact-section {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+  }
+  #about-section h2, #contact-section h2 {
+    color: #ffffff;
+    text-align: center;
+  }
+  #contact-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #contact-section ul li {
+    margin: 10px 0;
+  }
+  #contact-section ul li a {
+    color: #28a745;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #contact-section ul li a:hover {
+    text-decoration: underline;
+  }
